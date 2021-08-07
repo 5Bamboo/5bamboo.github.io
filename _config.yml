@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "一等白蜡"
-  avatar : "/assets/images/headphoto.png"
+  avatar : "/assets/images/headphoto.jpg"
   bio    : "懒懒散散"
   links:
     - label: "Website"
