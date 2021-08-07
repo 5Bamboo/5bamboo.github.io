@@ -1,9 +1,8 @@
 ---
 permalink: /about/
-title: "About"
+title: "欢迎你来。"
 ---
 
-# 欢迎你来。
 
 ## 网站内容：
  - 文章
