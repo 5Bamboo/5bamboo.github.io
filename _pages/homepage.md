@@ -3,7 +3,7 @@ title: ""
 permalink: /homepage/
 author_profile: false
 ---
-![yuki](/assets/image/60C.png)
+![yuki](https://github.com/5Bamboo/5bamboo.github.io/blob/master/assets/images/60C.png?raw=true)
 
 你好，欢迎。
 
