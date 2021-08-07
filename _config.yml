@@ -21,7 +21,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: contrast
 search: true
-logo: "/assets/images/小竹.jpg"
+logo: "/assets/images/小竹.png"
 
 # Build settings
 markdown: kramdown
