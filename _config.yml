@@ -22,7 +22,9 @@ github_username: username
 minimal_mistakes_skin: contrast
 search: true
 url: "https://5bamboo.github.io"
-baseurl: "/homepage"
+baseurl: ""
+logo: "/assets/images/headphoto.jpg"
+teaser: "/assets/images/headphoto.jpg"
 masthead_title: "5Bamboo Club"
 
 # Build settings
