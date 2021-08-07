@@ -21,11 +21,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: contrast
 search: true
-url: "https://5bamboo.github.io"
-baseurl: ""
-logo: "/assets/images/headphoto.jpg"
-teaser: "/assets/images/headphoto.jpg"
-masthead_title: "5Bamboo Club"
+logo: "/assets/images/小竹.jpg"
 
 # Build settings
 markdown: kramdown
