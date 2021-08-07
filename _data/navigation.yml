@@ -7,5 +7,5 @@ main:
     url: /categories/
   - title: "标签"
     url: /tags/
-  - title: "[bamboo]"
+  - title: "关于"
     url: /about/
