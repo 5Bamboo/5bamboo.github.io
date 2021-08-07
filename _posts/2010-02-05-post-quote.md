@@ -1,9 +1,10 @@
 ---
 title: "Post: Quote"
 categories:
-  - Blog
+  - 参考
 tags:
   - Post Formats
+  - jekyll
   - quote
 ---
 
