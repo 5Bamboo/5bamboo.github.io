@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+<link rel="shortcut icon" type="images/x-icon" href="https://github.com/5Bamboo/5bamboo.github.io/blob/master/assets/images/%E5%B0%8F%E7%AB%B9.png?raw=true">
 locale: "zh-CN"
 title: "5Bamboo Club"
 title_separator: "|"
