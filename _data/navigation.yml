@@ -1,4 +1,6 @@
 main:
+  - title: "主页"
+    url: /homepage/
   - title: "时间"
     url: /posts/
   - title: "分类"
