@@ -1,9 +1,10 @@
 ---
 title: "Post: Notice"
 categories:
-  - Blog
+  - 参考
 tags:
   - Post Formats
+  - jekyll
   - notice
 ---
 
