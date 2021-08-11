@@ -1,14 +1,10 @@
 ---
-title: "Post: Notice"
+title: "Notice"
 categories:
   - 参考
 tags:
-  - Post Formats
   - jekyll
-  - notice
 ---
-
-A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
 When using Kramdown `{: .notice}` can be added after a sentence to assign the `.notice` to the `<p></p>` element. 
 
