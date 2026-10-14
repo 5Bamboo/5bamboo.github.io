@@ -1,7 +1,6 @@
 ---
 title: ""
 permalink: /homepage/
-author_profile: true
 ---
 
 
