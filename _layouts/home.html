@@ -1,25 +1,40 @@
 ---
 layout: default
 ---
-<div class="profile-center">
-  <!-- 这里的路径根据你的 assets/images 实际图片名来写 -->
-  <img src="{{ '/assets/images/headphoto.jpg' | relative_url }}" class="avatar" alt="Avatar">
-  <h1 class="username">{{ site.author.name }}</h1>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <!-- ⬇️ 你要引用的 CSS 都写在这下面 ⬇️ -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+</head>
+<body>
+  <div class="profile-center">
+    <!-- 这里的路径根据你的 assets/images 实际图片名来写 -->
+    <img src="{{ '/assets/images/headphoto.jpg' | relative_url }}" class="avatar" alt="Avatar">
+    <h1 class="username">{{ site.author.name }}</h1>
   
-  <!-- 分类标签区 -->
-  <div class="category-tabs">
-    {% for category in site.categories %}
-      <a href="{{ '/category-archive/' | relative_url }}#{{ category[0] }}" class="tab-btn">{{ category[0] }}</a>
+    <!-- 分类标签区 -->
+    <div class="category-tabs">
+      {% for category in site.categories %}
+        <a href="{{ '/category-archive/' | relative_url }}#{{ category[0] }}" class="tab-btn">{{ category[0] }}</a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- 首页下方展示文章列表 -->
+  <div class="post-list">
+    {% for post in site.posts %}
+      <article>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+      </article>
     {% endfor %}
   </div>
-</div>
-
-<!-- 首页下方展示文章列表 -->
-<div class="post-list">
-  {% for post in site.posts %}
-    <article>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </article>
-  {% endfor %}
-</div>
+</body>
+</html>
