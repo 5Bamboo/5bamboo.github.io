@@ -43,3 +43,21 @@
   color: #fff;
   border-color: #333;
 }
+
+/* ===== 全局非衬线粗体 ===== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* 标题保持更粗，形成层次 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* 代码块保持等宽，不要变粗以免难读 */
+code, pre {
+  font-family: "JetBrains Mono", Consolas, Monaco, "Courier New", monospace;
+  font-weight: 400;
+}
