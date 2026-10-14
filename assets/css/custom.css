@@ -1,0 +1,45 @@
+.profile-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 0 2rem;
+}
+.profile-center .avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.profile-center .username {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 2rem;
+}
+.category-tabs {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.tab-btn {
+  display: inline-block;
+  padding: 8px 22px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #555;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+.tab-btn:hover {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
