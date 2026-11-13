@@ -1,6 +1,7 @@
 ---
 permalink: /about/
-title: "欢迎你来。"
+title: "关于本站"
+
 ---
 
 
@@ -11,8 +12,6 @@ title: "欢迎你来。"
  - 杂项
 
 ## 使用者：
- - QQ：1839733716
- - weibo：糖醋五竹
- - LOFTER：一等白蜡
+ - Weibo：一等白蜡
 
-### Hope you have fun.
+### 工事中。
