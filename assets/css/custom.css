@@ -15,7 +15,7 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 .profile-center .username {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #111;
   margin-bottom: 2rem;
@@ -44,16 +44,39 @@
   border-color: #333;
 }
 
+/* ===== 限制正文内容宽度并居中 ===== */
+/* 针对文章列表和正文区域进行居中约束 */
+.page__content,
+.post-list {
+  max-width: 800px;      /* 限制最大宽度，你可以改成 700px 或 900px */
+  margin: 0 auto;        /* 左右自动居中 */
+  padding: 0 20px;       /* 手机端防止贴边 */
+}
+
+/* 顺便美化一下文章列表 */
+.post-list article {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+.post-list h2 a {
+  text-decoration: none;
+  color: #222;
+}
+.post-list h2 a:hover {
+  color: #007bff;
+}
+
 /* ===== 全局非衬线粗体 ===== */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 /* 标题保持更粗，形成层次 */
 h1, h2, h3, h4, h5, h6 {
   font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 /* 代码块保持等宽，不要变粗以免难读 */
