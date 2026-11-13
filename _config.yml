@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "zh-CN"
-title: "ANALYSER IN"
+title: "演得不赖制造工厂"
 title_separator: "|"
 email: "1839733716@qq.com"
 description: >- # this means to ignore newlines until "baseurl:"
@@ -59,13 +59,13 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "ANALYSER IN"
+  name   : "演得不赖制造工厂"
   avatar : "/assets/images/headphoto.jpg"
   bio    : "Simulation Ready."
   links:
-    - label: "Lofter"
+    - label: "Weibo"
       icon: "fas fa-fw fa-link"
-      url: "https://fimboo.lofter.com/"
+      url: "https://weibo.com/u/5147836010"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/5Bamboo"
